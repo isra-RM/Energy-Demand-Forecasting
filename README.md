@@ -1,2 +1,1 @@
-# Energy-Demand-Forecasting
-A project to forecast energy consumption.
+In this project we are going to forecast the energy consumption using data from 2009 to 2022 collected hourly. Most of the project is based upon a Time Series Forecasting video by Rob Mulla in YouTube. We created datetime features and lag features to train a xgboost regressor. We use high-level plots from seaborn to show behaviour of the energy consumption for each datetime feature. We implemented the BlockTimeSeriesSplit method which splits the time series data respecting temporal order and preventing leakage from future data into the model. PyOD was also used to remove outliers from our data.
